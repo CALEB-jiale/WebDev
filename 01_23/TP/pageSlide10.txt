@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title>Essai</title>
+		<meta name="description" content="Poème du poète français Paul Verlaine">
+	</head>
+	<body bgcolor="#D5FF00">
+		<h1><font color="#994C00">Paul Verlaine</font></h1>
+		<div align="center">Le ciel est, par-dessus le toit, <br/>
+		<font size="3" color="#0000FF"><b><i>Si bleu</i></b></font>, si calme!<br/>Un arbre, par-dessus le toit <br/> Berce sa palme<br/></div>
+		<br/>
+		<div align="right">La cloche, dans le ciel qu'on voit, <br/>Doucement tinte. <br/>Un oiseau sur l'arbre qu'on voit,<br/>Chante sa plainte.<br/></div>
+	</body>
+</html>

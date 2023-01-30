@@ -1,0 +1,42 @@
+h1 {
+    color: #994C00;
+}
+
+body {
+    animation: hovering 5s infinite;
+    background-color: #D5FF00;
+}
+
+/* specific divs */
+.par1 {
+    text-align: center;
+}
+
+.important {
+    font-size: 3;
+    color: #0000FF;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.par2 {
+    text-align: right;
+}
+
+@keyframes hovering {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: yellow;
+    }
+
+    50% {
+        background: blue;
+    }
+
+    100% {
+        background: green;
+    }
+}

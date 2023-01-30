@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <p id="p1">
+        D'après le sondage réalisé le 12 janvier en atelier TING, 77% des répondants - soit 117 étudiants - n'avaient
+        toujours pas trouvé de stage.
+    </p></br>
+
+    <p id="p1">
+        Or, à ce jour, seuls 57 candidats se sont inscrits sur la plateforme Seekube et 28 candidats seulement se sont
+        positionnés pour les entretiens avec les entreprises partenaires lors du Career Booster du 2 février.
+    </p></br>
+
+    <p id="p1">
+        Ces 45 entreprises viennent spécifiquement VOUS recruter, elles savent que vous êtes en 2A et vous offrent des
+        opportunités (stages, césures et contrats Pro) sur un plateau dans des domaines très variés.
+    </p> -->
+
+    <p id="ball"></p>
+
+    <!-- <label>Num 1: </label>
+    <input type="number" id="number1">
+    </br>
+    <label>Num 2: </label>
+    <input type="number" id="number2">
+    <button name="plus" onclick="Plus()">Plus</button>
+    <p id="demo"></p> -->
+
+    <form action="" id="form">
+        <fieldset id="field">
+            <legend>Formulaire:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"></br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"></br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value="example@gmail.com"></br></br>
+            <input type="button" onclick="SubmitName()" value="Submit">
+        </fieldset>
+    </form>
+
+    <div id="div-center">
+        <button onclick="DeleteRow()">Delete</button>
+        <button onclick="SaveData()">Save</button>
+        <button onclick="mReset()">Reset</button>
+    </div>
+
+
+    <table cellspacing="0" cellpadding="4px" id="table">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Option</th>
+        </tr>
+    </table>
+
+    <script>mInit();</script>
+</body>
+
+</html>
